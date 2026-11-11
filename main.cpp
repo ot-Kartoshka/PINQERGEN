@@ -13,10 +13,10 @@ namespace {
     void PrintHelp() {
 
 
-        std::println("  lab1 -g <датчик> [-n БІТИ] [-a ALPHA]... [-r N] [-t ТЕСТ] [-s SEED] [-o FILE]");
-        std::println("  lab1 -f <файл>   [-n БІТИ] [-a ALPHA]... [-r N] [-t ТЕСТ]");
-        std::println("  lab1 --experiment [--csv FILE] [-n БІТИ] [-a ALPHA]... [-r N] [-s SEED]");
-        std::println("  lab1 --list");
+        std::println("  pinqergen -g <датчик> [-n БІТИ] [-a ALPHA]... [-r N] [-t ТЕСТ] [-s SEED] [-o FILE]");
+        std::println("  pinqergen -f <файл>   [-n БІТИ] [-a ALPHA]... [-r N] [-t ТЕСТ]");
+        std::println("  pinqergen --experiment [--csv FILE] [-n БІТИ] [-a ALPHA]... [-r N] [-s SEED]");
+        std::println("  pinqergen --list");
         std::println("");
         std::println("  -g, --generator <код>   датчик з переліку --list (за замовч. builtin)");
         std::println("  -f, --file <шлях>       перевірити послідовність із зовнішнього файлу");

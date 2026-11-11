@@ -1,7 +1,7 @@
 ﻿
 # укажите здесь логику для конкретного проекта.
 cmake_minimum_required (VERSION 3.28)
-project ("Lab1")
+project ("pinqergen")
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -29,8 +29,8 @@ add_library(PrngCore STATIC
 target_include_directories(PrngCore PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/include")
 
 
-add_executable (Lab1 "main.cpp")
-target_link_libraries(Lab1 PRIVATE PrngCore)
+add_executable (pinqergen "main.cpp")
+target_link_libraries(pinqergen PRIVATE PrngCore)
 
 
 include(FetchContent)
